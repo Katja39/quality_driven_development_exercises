@@ -398,3 +398,14 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+#Libary
+doc/
+lib/
+inc/
+core/
+unittest/
+tests/
+*.sln
+*.vcxproj
+*.filters
