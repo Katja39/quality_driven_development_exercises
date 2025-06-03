@@ -1,2 +1,2 @@
 #pragma once
-void exercise2_tests();
+int exercise2_tests();
