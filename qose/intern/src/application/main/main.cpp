@@ -1,15 +1,16 @@
 #include <iostream>
 #include "../exercises/1_asserts.h"
 #include "../exercises/2_test.h"
-//#include "../exercises/3_exception.h"
-
+#include "../exercises/3_exception.h"
+#include "../exercises/4_printer.h"
 
 void showMenu() 
 {
 	std::cout << "\nChoose an exercise:" << std::endl;
 	std::cout << "1: Asserts" << std::endl;
 	std::cout << "2: Tests" << std::endl;
-	//std::cout << "3: Exceptions" << std::endl;
+	std::cout << "3: Exceptions" << std::endl;
+	std::cout << "4: Printer" << std::endl;
 	std::cout << "0: Exit" << std::endl;
 	std::cout << "> ";
 }
@@ -37,9 +38,12 @@ int main()
 		case 2:
 			exercise2_tests();
 			break;
-		/*case 3:
+		case 3:
 			exercise3_exceptions();
-		*/
+			break;
+		case 4:
+			exercise4_printer();
+			break;
 		case 0:
 			std::cout << "Exiting...\n";
 			return 0;
